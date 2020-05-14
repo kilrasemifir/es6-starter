@@ -4,12 +4,10 @@
   "description": "starter Node",
   "main": "src/index.js",
   "scripts": {
-    "test": "test",
-    "start": "node dist/index.js",
-    "build": "webpack"
+    "start": "webpack"
   },
   "keywords": [
-    "starter"
+    "starter","es6"
   ],
   "author": "killian raoux",
   "license": "ISC",
