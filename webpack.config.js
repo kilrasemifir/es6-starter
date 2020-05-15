@@ -4,6 +4,7 @@ module.exports = {
     entry: './src/index.js',
     'mode':'none',
     watch:true,
+    target: "node",
     output: {
         filename: 'main.js',
         path: path.resolve('./dist')
