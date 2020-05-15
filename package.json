@@ -4,6 +4,7 @@
   "description": "starter Node",
   "main": "src/index.js",
   "scripts": {
+    "test": "jest",
     "start": "webpack"
   },
   "keywords": [
@@ -13,12 +14,14 @@
   "author": "killian raoux",
   "license": "ISC",
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "babel-preset-es2016": "^6.24.1",
     "jest": "^26.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
+    "@babel/preset-es2016": "^7.0.0-beta.53",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.1.0",
     "nodemon-webpack-plugin": "^4.3.1",
