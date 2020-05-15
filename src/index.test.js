@@ -1,6 +1,5 @@
 import { addition, affect, fooError } from ".";
 
-
 test("addition function", () => {
     expect(addition()).toBe(0)
     expect(addition(1,2)).toBe(3)
@@ -42,3 +41,4 @@ test('Error', ()=>{
     expect(fooError).toThrow('Mon message')
     expect(fooError).toThrow(/mes/)
 })
+
